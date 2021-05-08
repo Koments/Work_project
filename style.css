@@ -1,0 +1,145 @@
+body, .no-touch {
+    max-width: 1200px;
+    font-family: 'Itim', cursive;
+}
+.screen_width {
+    width: 100vw;
+    margin: 0 auto;
+}
+.first_info {
+    background-image: url(./images/first_info.png);
+    width: 100vw;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    margin-bottom: 20px;
+}
+.goals{
+    background-image: url(./images/goals.PNG);
+    width: 30%;
+    height: 660px;
+    background-repeat: no-repeat;
+}
+.goals_info{
+    font-size: 30px;
+}
+.centered{
+    height: 930px;
+}
+.s_Center {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    cursor: pointer;
+}
+
+.note {
+    background-image: url(./images/note.png);
+    width: 100vh;
+    height: 2000px;
+}
+
+.games_img:after {
+    content: url(./images/Icons/easel.png);
+    padding-left: 60px;
+}
+
+.calendar_img:after {
+    content: url(./images/Icons/calendar.png);
+    padding-left: 50px;
+}
+
+.board_img:after {
+    content: url(./images/Icons/board.png);
+    margin-top: 10px;
+    padding-left: 50px;
+}
+
+.sport_img::after {
+    content: url(./images/Icons/sport.png);
+    padding-left: 50px;
+}
+
+.btn_style {
+    width: 300px;
+    height: 65px;
+    font-size: 23px;
+    border-radius: 30px;
+    
+}
+.btn_style:hover{
+   background-color: rgb(56, 56, 56);
+    color: white;
+    border-style:none
+}
+.font_games {
+    font-family: 'Itim', cursive;
+}
+
+.carousel {
+    height: 650px !important;
+}
+
+.andrey::before {
+    content: "Андрей";
+    position: absolute;
+    font-size: 40px;
+    color: white;
+    top: -60px;
+}
+
+.andrey, .angel, .lena, .marta, .roma, .nastya, .nikolay {
+    position: relative;
+}
+
+.lena::before {
+    content: "Лена";
+    position: absolute;
+    font-size: 40px;
+    color: white;
+    top: -60px;
+}
+
+.marta::before {
+    content: "Марта";
+    position: absolute;
+    font-size: 40px;
+    color: white;
+    top: -60px;
+}
+
+.roma::before {
+    content: "Роман";
+    position: absolute;
+    font-size: 40px;
+    color: white;
+    top: -60px;
+}
+
+.nastya::before {
+    content: "Настья";
+    position: absolute;
+    font-size: 40px;
+    color: white;
+    top: -60px;
+}
+
+.nikolay::before {
+    content: "Николай";
+    position: absolute;
+    font-size: 40px;
+    color: white;
+    top: -60px;
+}
+
+.angel::before {
+    content: "Ангелина";
+    position: absolute;
+    font-size: 40px;
+    color: white;
+    top: -60px;
+}
